@@ -18,6 +18,7 @@ body{
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
     justify-content: center;
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
+    margin-top: 20px;
 }
 .card{
     flex: 1 1 calc(25% - 20px); /* Kart genişliği ve aralarındaki boşluk */
