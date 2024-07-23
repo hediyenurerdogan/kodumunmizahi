@@ -8,15 +8,20 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
+    justify-content: center;
+    width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
 .card{
-    display: flex;
     flex: 1 1 calc(25% - 20px); /* Kart genişliği ve aralarındaki boşluk */
-    flex-wrap: wrap;
-    justify-content: center; /* Kartları yatay merkezler */
     margin: 10px;
-    width: 80%
+    max-width: 300px; /* Kartların maksimum genişliği */
     height: 400px;
     border-radius: 5px;
     overflow: hidden;
@@ -43,11 +48,11 @@ body{
 .card .yazi h2{
     height: 50px;
     line-height: 50px;
-    padding: 0px 10 px;
+    padding: 0px 10px;
 }
 .card .yazi p{
     margin-top: 10px;
-    padding: 0px 10 px;
+    padding: 0px 10px;
     font-size: 17px;
 }
 .card:hover .yazi{
