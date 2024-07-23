@@ -51,7 +51,6 @@ let generateGif = () => {
                             document.execCommand("copy");
                             document.body.removeChild(hiddenInput);
                             });
-                        });
             container.append(copyBtn);
             document.querySelector(".wrapper").append
                 }

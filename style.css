@@ -34,6 +34,7 @@ button {
 .wrapper {
 }
 .loader {
+    display: none;
     height: 15em;
     width: 15em;
     border: 3em solid #2b304d;
