@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // Resim dosya adları ve başlıkları
         let images = [
-            { src: "img1.jpg", title: "Card 1" },
+            { src: "card1.jpg", title: "Card 1" },
             { src: "img2.jpg", title: "Card 2" },
             { src: "img3.jpg", title: "Card 3" },
             { src: "img4.jpg", title: "Card 4" },
