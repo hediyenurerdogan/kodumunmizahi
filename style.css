@@ -11,7 +11,7 @@ body {
 
 .box {
     width: 80%;
-    max-width: 1200px;
+    max-width: 800px;
     text-align: center;
 }
 
@@ -35,8 +35,8 @@ body {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
     border-top: 16px solid #3498db;
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
     margin: 0 auto;
@@ -54,7 +54,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 20px;
 }
 
