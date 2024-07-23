@@ -12,10 +12,11 @@ body{
 }
 .card{
     display: flex;
+    flex: 1 1 calc(25% - 20px); /* Kart genişliği ve aralarındaki boşluk */
     flex-wrap: wrap;
     justify-content: center; /* Kartları yatay merkezler */
     margin: 10px;
-    width: 300px;
+    width: 80%
     height: 400px;
     border-radius: 5px;
     overflow: hidden;
