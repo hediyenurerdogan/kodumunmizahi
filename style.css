@@ -11,16 +11,17 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    padding-top: 100px;
 }
 .container {
     display: flex;
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
     justify-content: center;
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .card{
-    flex: 1 2 calc(30% - 50px); /* Kart genişliği ve aralarındaki boşluk */
+    flex: 1 1 calc(25% - 20px); /* Kart genişliği ve aralarındaki boşluk */
     margin: 10px;
     max-width: 300px; /* Kartların maksimum genişliği */
     height: 400px;
