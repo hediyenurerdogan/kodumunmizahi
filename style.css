@@ -9,10 +9,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
 }
-
-<<<<<<< HEAD
 .card{
     width: 300px;
     height: 400px;
@@ -20,47 +17,14 @@ body{
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
     cursor: pointer;
+    transition: 0.4s;
 }
-
 .card img{
     width: 300px;
     height: 400px;
     border-radius: 5px;
-=======
-.box {
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
+    transition: 0.4s;
 }
-
-.search-container {
-    margin-bottom: 20px;
-}
-
-#search-box {
-    padding: 10px;
-    width: 70%;
-    font-size: 16px;
-}
-
-#submit-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.loader {
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    margin: 0 auto;
->>>>>>> bfe609e9bed75af658a5d71c08f309937eddc4a8
-}
-
 .card .yazi{
     width: 100%;
     height: 200px;
@@ -68,42 +32,25 @@ body{
     transform: translateY(-60px);
     opacity: 0.8;
     border-radius: 5px;
+    color: white;
+    transition: 0.4s;
 }
 .card .yazi h2{
     height: 50px;
     line-height: 50px;
     padding: 0px 10 px;
 }
-<<<<<<< HEAD
 .card .yazi p{
     margin-top: 10px;
     padding: 0px 10 px;
     font-size: 17px;
-    color: aliceblue;
-=======
-
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 20px;
 }
-
-.card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
-    padding: 20px;
+.card:hover .yazi{
+    transform: translateY(-200px);
 }
-
-.card img {
-    max-width: 100%;
-    border-radius: 8px;
+.card:hover{
+    box-shadow: 0px 0px 20px black;
 }
-
-.card h3 {
-    margin: 10px 0 0;
-    font-size: 18px;
->>>>>>> bfe609e9bed75af658a5d71c08f309937eddc4a8
+.card:hover img{
+    transform: scale(1.2);
 }
