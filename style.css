@@ -16,7 +16,13 @@ body{
 .container {
     display: flex;
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
+<<<<<<< HEAD
     gap: 40px;
+=======
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+>>>>>>> c7d3ccbe179b6a14f317515e86b264d81f316505
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
 .card{
