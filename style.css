@@ -20,13 +20,18 @@ body{
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
 .card{
+<<<<<<< Updated upstream
     width: calc(25% - 20px);
     margin: 20px;
+=======
+    width: calc(25% - 100px);
+    margin: 39px;
+>>>>>>> Stashed changes
     max-width: 300px; /* Kartların maksimum genişliği */
     height: 400px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 20px black;
     cursor: pointer;
     transition: 0.5s;
 }
