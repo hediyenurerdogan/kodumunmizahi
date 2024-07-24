@@ -16,6 +16,8 @@ body{
 .container {
     display: flex;
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
+    padding: 20px;
+    justify-content: center;
     gap: 20px;
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
