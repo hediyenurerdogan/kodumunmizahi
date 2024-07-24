@@ -17,10 +17,10 @@ body{
     display: flex;
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
     justify-content: space-between;
-    justify-content: center;
     width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
 .card{
+    width: calc(25% - 20px);
     margin: 10px;
     max-width: 300px; /* Kartların maksimum genişliği */
     height: 400px;
