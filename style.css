@@ -18,19 +18,17 @@ body{
     flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
     justify-content: space-between;
     justify-content: center;
-    width: 60%; /* Container genişliğini tam genişlikte yapıyoruz */
-    margin-top: 20px;
+    width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
 }
 .card{
-    flex: 1 1 calc(25% - 20px);
     margin: 10px;
     max-width: 300px; /* Kartların maksimum genişliği */
     height: 400px;
-    border-radius: 5px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 .card img{
     width: 300px;
