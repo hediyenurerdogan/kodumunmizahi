@@ -70,6 +70,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     };
 
+    // Sayfa yüklendiğinde kartları karıştır ve oluştur
+    generateCards();
+
     // Buton tıklama olayını dinle
     submitBtn.addEventListener("click", generateCards);
 });
