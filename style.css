@@ -70,3 +70,12 @@ body{
 .card:hover img{
     transform: scale(1.2);
 }
+.logo {
+    width: 200px; /* Logonun genişliğini ayarlayın */
+    margin-top: 20px; /* Logonun üstten boşluk bırakması için */
+}
+
+.logo img {
+    width: 100%; /* Resmi container genişliğine göre ölçeklendirir */
+    height: auto; /* Yükseklik orantılı ayarlanır */
+}
