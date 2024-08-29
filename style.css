@@ -1,47 +1,49 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     padding-top: 130px;
 }
+
 .container {
     display: flex;
-    flex-wrap: wrap; /* Satır dolduğunda alt satıra geçmek için */
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 20px;
     padding-bottom: 100px;
     justify-content: center;
-    gap: 20px;
-    width: 100%; /* Container genişliğini tam genişlikte yapıyoruz */
+    width: 100%;
 }
-.card{
+
+.card {
     width: calc(25% - 20px);
-    margin: 20px;
-    margin: 18px;
-    max-width: 300px; /* Kartların maksimum genişliği */
+    max-width: 300px;
     height: 400px;
+    margin: 18px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 20px black;
     cursor: pointer;
     transition: 0.5s;
 }
-.card img{
-    width: 300px;
-    height: 400px;
+
+.card img {
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     transition: 0.4s;
 }
-.card .yazi{
+
+.card .yazi {
     width: 100%;
     height: 200px;
     background-color: rgb(125, 210, 213);
@@ -51,31 +53,37 @@ body{
     color: white;
     transition: 0.4s;
 }
-.card .yazi h2{
+
+.card .yazi h2 {
     height: 50px;
     line-height: 50px;
     padding: 0px 10px;
 }
-.card .yazi p{
+
+.card .yazi p {
     margin-top: 10px;
     padding: 0px 10px;
     font-size: 17px;
 }
-.card:hover .yazi{
+
+.card:hover .yazi {
     transform: translateY(-200px);
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0px 0px 20px black;
 }
-.card:hover img{
+
+.card:hover img {
     transform: scale(1.2);
 }
+
 .logo {
-    width: 200px; /* Logonun genişliğini ayarlayın */
-    margin-top: 20px; /* Logonun üstten boşluk bırakması için */
+    width: 200px;
+    margin-top: 20px;
 }
 
 .logo img {
-    width: 100%; /* Resmi container genişliğine göre ölçeklendirir */
-    height: auto; /* Yükseklik orantılı ayarlanır */
+    width: 100%;
+    height: auto;
 }
