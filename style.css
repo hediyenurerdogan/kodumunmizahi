@@ -78,27 +78,17 @@ body {
     transform: scale(1.2);
 }
 
-.logo {
-    width: 200px;
-    margin-top: 20px;
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-}
-
 body {
     background-image: url('img/arkaplan.jpg');
 }
 
  .logo {
-                                                      width: 150px; /* Logonun genişliğini ayarlar */
-                                                      height: auto; /* Yüksekliğini orantılı olarak ayarlar */
-                                                      display: block; /* Logoyu blok öğesi yapar */
-                                                      margin: 0 auto; /* Ortalar */
-                                                      padding: 20px 0; /* Üst ve alt boşluk ekler */
-                                                  }
+   width: 150px; /* Logonun genişliğini ayarlar */
+   height: auto; /* Yüksekliğini orantılı olarak ayarlar */
+   display: block; /* Logoyu blok öğesi yapar */
+   margin: 0 auto; /* Ortalar */
+   padding: 20px 0; /* Üst ve alt boşluk ekler */
+ }
 
 
 header {
