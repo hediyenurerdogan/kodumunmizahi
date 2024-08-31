@@ -24,7 +24,6 @@ header {
     background:#f4ddd0; /* Logo arka planı için hafif beyaz */   
     top: 0;
     left: 0;
-    z-index: 1000; /* Diğer içeriklerin üzerinde kalır */
     display: flex;
     align-items: center; /* Logo dikey olarak ortalanır */
     justify-content: center; /* Logo yatay olarak ortalanır */
