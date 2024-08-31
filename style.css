@@ -90,5 +90,19 @@ body {
 
 body {
     background-image: url('img/arkaplan.jpg');
+}
 
+ .logo {
+                                                      width: 150px; /* Logonun genişliğini ayarlar */
+                                                      height: auto; /* Yüksekliğini orantılı olarak ayarlar */
+                                                      display: block; /* Logoyu blok öğesi yapar */
+                                                      margin: 0 auto; /* Ortalar */
+                                                      padding: 20px 0; /* Üst ve alt boşluk ekler */
+                                                  }
+
+
+header {
+    text-align: center; /* Logoyu sayfanın ortasına hizalar */
+    padding: 10px 0; /* Başlık alanına boşluk ekler */
+    background-color: #fff; /* İsteğe bağlı olarak arka plan rengi ayarlayabilirsiniz */
 }
