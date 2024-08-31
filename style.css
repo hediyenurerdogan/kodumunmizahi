@@ -13,7 +13,7 @@ body {
     background-image: url('img/arkaplan.jpg');
     background-size: cover;
     background-position: center;
-    padding-top: 60px; /* İçeriğin logo altından başlaması için */
+    padding-top: 0px; /* İçeriğin logo altından başlaması için */
 }
 
 header {
