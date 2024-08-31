@@ -46,7 +46,7 @@ header {
     width: 100%;
     position: relative;
     z-index: 1; /* Logo üstünde yer alır */
-    margin-top: 160px; /* Logo paneli ile kartlar arasında boşluk */
+    margin-top: 130px; /* Logo paneli ile kartlar arasında boşluk */
 }
 
 .card {
