@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function generateCards() {
         // Resim dosya adları ve başlıkları
         let images = [];
-        for (let i = 1; i <= 80; i++) {
+        for (let i = 1; i <= 200; i++) {
             images.push({ src: `img/card${i}.jpg`, title: `Kart ${i}` });
         }
 
