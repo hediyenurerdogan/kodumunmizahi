@@ -90,7 +90,5 @@ body {
 
 body {
     background-image: url('img/arkaplan.jpg');
-    background-size: cover; /* Görselin tüm ekrana yayılması için */
-    background-position: center; /* Ortadan hizalanması için */
-    background-repeat: no-repeat; /* Tekrarlanmaması için */
+
 }
