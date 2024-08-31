@@ -21,9 +21,7 @@ header {
     max-height: 180px; /* Logo panelinin yüksekliğini ayarlamak için */
     text-align: center;
     padding: 10px 0; /* Logo paneli için dikey boşluk */
-    background:#f4ddd0; /* Logo arka planı için hafif beyaz */
-    background-color: #floralwhite; /* İsteğe bağlı olarak arka plan rengi ayarlayabilirsiniz */
-    position: fixed; /* Logo sabit konumda kalır */
+    background:#f4ddd0; /* Logo arka planı için hafif beyaz */   
     top: 0;
     left: 0;
     z-index: 1000; /* Diğer içeriklerin üzerinde kalır */
