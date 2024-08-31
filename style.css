@@ -13,17 +13,22 @@ body {
     background-image: url('img/arkaplan.jpg');
     background-size: cover;
     background-position: center;
+    padding-top: 60px; /* İçeriğin logo altından başlaması için */
 }
 
 header {
     width: 100%;
+    max-height: 80px; /* Logo panelinin yüksekliğini ayarlamak için */
     text-align: center;
-    padding: 20px;
+    padding: 10px 0; /* Logo paneli için dikey boşluk */
     background: rgba(255, 255, 255, 0.8); /* Logo arka planı için hafif beyaz */
     position: fixed; /* Logo sabit konumda kalır */
     top: 0;
     left: 0;
     z-index: 1000; /* Diğer içeriklerin üzerinde kalır */
+    display: flex;
+    align-items: center; /* Logo dikey olarak ortalanır */
+    justify-content: center; /* Logo yatay olarak ortalanır */
 }
 
 .logo {
@@ -35,11 +40,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 120px 20px 20px; /* Logo altındaki boşluğu ayarlamak için üst padding artırıldı */
+    padding: 20px; /* Logo altındaki boşluğu ayarlamak için */
     justify-content: center;
     width: 100%;
     position: relative;
     z-index: 1; /* Logo üstünde yer alır */
+    margin-top: 20px; /* Logo paneli ile kartlar arasında boşluk */
 }
 
 .card {
