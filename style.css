@@ -18,6 +18,7 @@ body {
 
 header {
     width: 100%;
+    position: fixed; /* Header'ı sabit konumda tutar */
     max-height: 180px; /* Logo panelinin yüksekliğini ayarlamak için */
     text-align: center;
     padding: 10px 0; /* Logo paneli için dikey boşluk */
